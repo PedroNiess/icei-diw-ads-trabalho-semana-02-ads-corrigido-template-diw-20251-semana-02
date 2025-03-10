@@ -1,11 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Currículo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body bgcolor="#71BDBD">
+  
+  <!-- Menu de Navegação -->
+  <nav>
+    <ul style="list-style-type: none; background-color: #333; padding: 10px; margin: 0; text-align: center;">
+      <li style="display: inline; margin-right: 20px;">
+        <a href="index.html" style="color: white; text-decoration: none; font-size: 18px;">Início</a>
+      </li>
+      <li style="display: inline; margin-right: 20px;">
+        <a href="sobre.html" style="color: white; text-decoration: none; font-size: 18px;">Sobre</a>
+      </li>
+      <li style="display: inline; margin-right: 20px;">
+        <a href="projetos.html" style="color: white; text-decoration: none; font-size: 18px;">Projetos</a>
+      </li>
+      <li style="display: inline;">
+        <a href="contato.html" style="color: white; text-decoration: none; font-size: 18px;">Contato</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="table-container" width="100vw">
+    <table bgcolor="white" align="center" border="0" cellspacing="20" cellpadding="20" width="900">
+      <tr cellpadding="">
+
+        <!--===============-->
+        <!-- Seção de Imagem -->
+        <!--===============-->
+        <td bgcolor="#1E2837" align="center">
+          <img height="200" src="./fotodeperfil.jpg" alt="fotodeperfil.jpg">
+        </td>
+
+        <!--==============-->
+        <!-- Seção de Nome -->
+        <!--==============-->
+        <td bgcolor="#1E2837" align="center">
+          <fieldset>
+            <legend><h1><font color="white">Pedro Niess</font></h1></legend>
+            <h3><font color="white">Aluno de ciências da computação na PUC Minas</font></h3>
+          </fieldset>   
+        </td>
+      </tr>
+      <tr>
+
+        <!--==================-->
+        <!-- Seção Sobre Mim -->
+        <!--==================-->
+        <td bgcolor="#71BDBD" width="35%">
+          <h2>Perfil</h2>
+          <p>
+            Sou um aluno de ciências da computação com experiência inicial em C.
+            Defendo os princípios de estudo árduo, dedicação, compromisso e perseverança para extrair o melhor do curso.
+          </p>
+          <br>
+          <div class="technical-skillset">
+            <table width="100%" cellpadding="7">
+              <tr>
+                <td bgcolor="black" colspan="2"><font color="white">Habilidades Técnicas</font></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><p>Códigos em C</p></li>
+                    <li><p>Códigos em C++</p></li>
+                    <li><p>Criação de sites HTML</p></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+
+        <!--=================-->
+        <!-- Seção de Detalhes -->
+        <!--=================-->
+        <td bgcolor="white" width="70%" cellspacing="20">
+
+          <div class="education">
+            <table cellpadding="7" width="100%">
+              <tr bgcolor="#1E2837"><th colspan="2"><font color="white">Educação</font></th></tr>
+              <tr>
+                <td><h4>2025 - 2029</h4></td>
+                <td>
+                  <h4>Bacharelado</h4>
+                  <p>Ciências da Computação</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br>
+          <br>
+          <div class="work-experience">
+            <table cellpadding="7" width="100%">
+              <tr bgcolor="#1E2837"><th colspan="2"><font color="white">Experiência de Trabalho</font></th></tr>
+              <tr>
+                <th align="left">Estagiário da Google</th>
+              </tr>
+              <tr>
+                <td>Sede do Google 2028-2030</td>
+              </tr>
+            </table>
+          </div>
+
+          <br>
+          <br>
+
+          <div class="education">
+            <table cellpadding="7" style="width: 100%;">
+              <tr bgcolor="#1E2837"><th colspan="2"><font color="white">Premiações</font></th></tr>
+              <tr>
+                <td><h4>Janeiro 2024</h4></td>
+                <td>
+                  <h4>Computação Competitiva - Primeira Posição</h4>
+                  <p>Primeiro lugar na execução de sites</p>
+                </td>
+              </tr>
+              <tr>
+                <td><h4>Maio 2026</h4></td>
+                <td>
+                  <h4>HTML - Segunda Posição</h4>
+                  <p>Segunda posição geral na criação de HTMLs</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+        </td>
+      </tr>
+    </table>
+  </div>
+
 </body>
 </html>
